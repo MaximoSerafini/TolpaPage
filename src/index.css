@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-900: #0a192f;
+  --navy-800: #112240;
+  --navy-700: #1e3a8a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+/* Additional utility classes */
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.transform {
+  transition: transform 0.3s ease;
+}
+
+.hover\:scale-102:hover {
+  transform: scale(1.02);
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
