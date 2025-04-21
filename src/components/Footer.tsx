@@ -56,12 +56,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={16} className="mr-2 text-blue-400" />
-                <a 
-                  href={`mailto:${EMAIL}`}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  {EMAIL}
-                </a>
+                <span className="text-gray-400">info@tolpa.com.ar</span>
               </li>
               <li className="flex items-start">
                 <MapPin size={16} className="mr-2 mt-1 text-blue-400" />
