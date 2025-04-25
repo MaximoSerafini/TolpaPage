@@ -37,7 +37,7 @@ export const Hero: React.FC = () => {
             
             <div className="flex items-center mb-6">
               <Satellite className="text-blue-400 mr-2" size={24} />
-              <p className="text-xl text-blue-300 font-semibold">Internet satelital</p>
+              <p className="text-xl text-blue-300 font-semibold">Internet de alta velocidad</p>
             </div>
             
             <p className="text-gray-300 text-lg mb-8">
